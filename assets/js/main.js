@@ -282,10 +282,14 @@ exampleCarousel.useControls();
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-
+  
 
 })();
 
+
+particlesJS.load('particles-js', function() {
+  console.log('particles.js loaded - callback');
+});
 
 
 
